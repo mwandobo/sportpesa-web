@@ -30,7 +30,7 @@ function Party({
             type: 'text',
             label: 'Phone',
             value: '',
-            required: true,
+            required: false,
             isError: false,
             errorMessage: ''
         },
@@ -39,7 +39,7 @@ function Party({
             type: 'text',
             label: 'Email',
             value: '',
-            required: true,
+            required: false,
             isError: false,
             errorMessage: ''
         },
@@ -48,7 +48,7 @@ function Party({
             type: 'text',
             label: 'Description',
             value: '',
-            required: true,
+            required: false,
             isError: false,
             errorMessage: ''
         },
